@@ -11,6 +11,14 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
@@ -53,13 +61,68 @@
     </nav>
 
     <div class="container">
-      <div class="text-center">
-        <h1>This is post page</h1>
-        <button class="btn btn-success" id="loadPost">Load Posts</button>
-        <a href="/index.html" class="btn btn-info">Go to Home Page</a>
+      <div class="text-center" style="margin-top: 12px">
+        <button class="btn btn-success btn-sm" id="loadPost">Load Posts</button>
       </div>
-      <div id="row-container"></div>
+      <div id="row-container" class="container"></div>
     </div>
+
+    <!--Footer Start -->
+    <section class="contact-area" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="contact-content text-center">
+              <a href="./index.html"
+                ><img src="./assets/images/logo.svg" alt="logo"
+              /></a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                ipsum
+              </p>
+              <div class="hr"></div>
+              <h6>Shastri Nagar - New Delhi India.</h6>
+              <h6>+01 2345 6789 12<span>|</span>+01 2345 6789 12</h6>
+              <div class="contact-social">
+                <ul>
+                  <li>
+                    <a class="hover-target" href=""
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="hover-target" href=""
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="hover-target" href=""
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="hover-target" href=""
+                      ><i class="fab fa-behance"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="hover-target" href=""
+                      ><i class="fab fa-pinterest-p"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; 2022 All Rights Reserved.</p>
+    </footer>
+    <!--Footer End-->
 
     <script src="js/post.js"></script>
   </body>
